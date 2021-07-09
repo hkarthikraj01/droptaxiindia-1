@@ -4,7 +4,7 @@ var suvo;
 var suvr;
 
 function book() {
-    
+    var CID =Math.floor((Math.random()*1000000)+1);
     var strText = document.getElementById("name").value;
     var strText1 = document.getElementById("p").value;
     var strText2 = document.getElementById("location-1").value;
